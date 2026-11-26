@@ -1,0 +1,24 @@
+# Working notes and private files stay out of the public repo
+docs/plan.md
+docs/progress.md
+.private/
+
+# Never upload secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*secret*
+*token*
+*password*
+credentials*
+
+# Python and editor leftovers
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+Thumbs.db
+desktop.ini

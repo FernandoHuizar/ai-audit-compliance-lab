@@ -1,0 +1,7 @@
+"File","CollectedUtc","Source","Note"
+"agent_inventory.csv","2026-11-26 03:52:05 UTC","Graph v1.0 agent identities, sponsors, owners, grants, credentials, plus az role assignment list","First lab script agent_inventory.ps1, both intake files"
+"related_identities.csv","2026-11-26 03:52:05 UTC","Graph v1.0 servicePrincipals, applications, appRoleAssignments, plus az role assignment list","Identities the inventory script does not list"
+"staff.csv","2026-11-26 03:52:05 UTC","Graph v1.0 users and manager","No sign-in names or IDs, to keep the file small"
+"usage_traces.csv","2026-11-26 03:52:05 UTC","Log Analytics DefaultWorkspace-2042cf89-35e3-4360-9812-6126ae418d63, table AppDependencies, last 30 days","Tracing started 2026-11-24 03:17 UTC. Earliest row 2026-11-24 03:17:55 UTC. Tool calls share an OperationId with their agent run"
+"usage_logicapp_runs.csv","2026-11-26 03:52:05 UTC","ARM workflows/runs for lindhav-ai001-disable-approval","Each run is one disable request. The decision and the disable are in the run details and the Entra audit log"
+"activity_log.csv","2026-11-26 03:52:05 UTC","Azure Activity Log, resource group rg-lindhav-ai, last 30 days","Management changes only, not data reads"

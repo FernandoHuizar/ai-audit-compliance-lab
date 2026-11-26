@@ -1,0 +1,7 @@
+"Name","JobTitle","Department","Enabled","Manager","ManagerEnabled"
+"Anna Holm","Customer Advisor","Customer Service","True","Henrik Dalgaard","True"
+"Fernando Huizar",,,"True","",""
+"Henrik Dalgaard","Head of IT and Operations","IT and Operations","True","",""
+"Louise Bach","Customer Service Manager","Customer Service","False","Henrik Dalgaard","True"
+"Mads Kjeldsen","Head of Internal Audit","Internal Audit","True","",""
+"Nanna Friis","AI Risk Officer","Risk","True","",""
